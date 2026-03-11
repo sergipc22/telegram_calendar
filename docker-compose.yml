@@ -19,10 +19,10 @@ services:
     ports:
       - "5678:5678"
     environment:
-      - N8N_HOST=98da5d577fda89.lhr.life
+      - N8N_HOST=n8n.milvegadessifest.com
       - N8N_PORT=5678
       - N8N_PROTOCOL=https
-      - WEBHOOK_URL=https://98da5d577fda89.lhr.life
+      - WEBHOOK_URL=https://n8n.milvegadessifest.com
       - GENERIC_TIMEZONE=Europe/Madrid
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_HOST=postgres
